@@ -83,6 +83,6 @@
 #define debug_trace(fmt, ...)   debug_print(fmt, COLOR_BLUE,   "TRACE",   5, ##__VA_ARGS__)            
 #define debug_info(fmt, ...)    debug_print(fmt, COLOR_GREEN,  "INFO",    4, ##__VA_ARGS__)
 #define debug_warning(fmt, ...) debug_print(fmt, COLOR_YELLOW, "WARNING", 3, ##__VA_ARGS__)
-#define debug_error(fmt, ...)   debug_print(fmt, COLOR_RED,    "ERRO",    2,  ##__VA_ARGS__)
+#define debug_error(fmt, ...)   debug_print(fmt, COLOR_RED,    "ERROR",    2,  ##__VA_ARGS__)
 #define debug_fatal(fmt, ...)   debug_print(fmt, COLOR_PURPLE, "FATAL",   1, ##__VA_ARGS__)    
     
