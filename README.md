@@ -30,3 +30,4 @@
    * #include "relative/path/to/debug.h"
  * don't write anything if you don't want to activate the debugging.
  
+ ![simple debug in c example](images_samples/simpleDebugC.png?raw=true "simple debug in c example")
