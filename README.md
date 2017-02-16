@@ -4,17 +4,18 @@
  
  First release date: 2017-02-15
  
- Version 0.9.0
+ Version 0.9.1
  
  How to use?
  
  * use in your code the various debug types:
-   * debug_fatal (purple)
-   * debug_error (red)
-   * debug_warning (yellow)
-   * debug_info (green)
-   * debug_trace (blue)
+   * debug_fatal(string);
+   * debug_error(string);
+   * debug_warning(string);
+   * debug_info(string);
+   * debug_trace(string);
  * you can write formated strings like printf.
+   * debug_info("received a message: %s", message);
  * specifie the level you want to debug the code:
    * DEBUG_LEVEL_FATAL
    * DEBUG_LEVEL_ERROR
